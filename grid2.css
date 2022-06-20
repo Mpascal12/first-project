@@ -33,7 +33,7 @@ header{
 main{
     grid-area: content;
     width:80%; ;
-    background-color: hsl(0, 0%, 90%);
+    background-color: hsl(202, 39%, 90%);
     margin-left: 60px;
     margin-top: -20px;
 }
@@ -41,9 +41,11 @@ main{
 {
     max-width: 960px;
     display: grid;
-    grid-template-columns:repeat(3,30%);
+    padding: 10px;
+    grid-template-columns:repeat(3,30%) ;
     gap: 10px;
     grid-auto-rows: 200px;
+
 
 }
 .item{
@@ -53,11 +55,34 @@ main{
     color: black;
     border: skyblue 1px solid;
     padding: 10px;
-
 }
 .nav-header{
     margin-top: -15px;
     
+}
+.form{
+    margin-top: 10px;
+    margin-left: 80px;
+    color: black;
+    
+}
+input{
+    width: 400px;
+    background-color:hsl(202, 39%, 90%);
+    border-radius: 15px;
+    height: 30px;
+}
+.img{
+    color: black;
+    margin-top:10px;
+    margin-left: 60px;
+}
+.left_word{
+    color: black;
+     float: right;
+     margin-top: -80px;
+     padding-right: 10px;
+     display: flex;
 }
 .nav-content{
     float: right;
@@ -71,17 +96,7 @@ li a{
     border-radius: 15px;
     text-decoration: none;
 }
-    
-input{
-    margin-top: 10px;
-    margin-left: 200px;
-    width: 450px;
-    height:30px;
-    border-radius: 15px;
-    background-color:hsl(0, 0%, 90%);
-    text-decoration: none;
 
-}
 nav{
     grid-area: nav;
     width: 145%;
@@ -89,8 +104,9 @@ nav{
 }
 .container2
 {
+    text-decoration: none;
 }
-ul li a{
+li a{
     text-decoration: none;
 }
 
