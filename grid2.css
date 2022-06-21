@@ -20,7 +20,8 @@ nav{
     color: white;
     padding: 20px;
     border: skyblue 1px solid;
-    height: 250%;
+    height: 189%;
+    text-decoration: none;
 
     
     
@@ -36,10 +37,10 @@ header{
 main{
     grid-area: content;
     width:80%; 
-    height: 408%;
+    height: 330%;
     background-color: hsl(202, 39%, 90%);
     margin-left: 60px;
-    margin-top: -95px;
+    margin-top: -130px;
 
 }
 .container
@@ -65,7 +66,7 @@ main{
 }
 .card{
     background-color: #f0B429;
-    height: 300px;
+    height: 200px;
     border-radius: 10px;
    
 }
@@ -75,7 +76,7 @@ main{
     color: black;
     padding-top: 25px;
     padding-left: 15px;
-    height: 300px;
+    height: 200px;
     border-radius: 10px;
 
 }
@@ -83,9 +84,14 @@ main{
     display: grid;
     grid-template-columns: 1fr; 
     gap:20px; 
+   
+ 
 }
 
-
+.grid-colum{
+    color: black;
+    margin-left: 15px;
+}
 .card-content2{
     background-color: white;
     margin-left: 10px;
@@ -94,8 +100,10 @@ main{
     border-radius: 10px;
     padding-top: 25px;
     padding-right: 20px;
-    height: 460px;
-    max-width: 350px;
+    height: 300px;
+    font-size: 10px;
+    
+    
    
     
 }
@@ -105,65 +113,112 @@ main{
     
 }
 .form{
-    margin-top: 10px;
-    margin-left: 80px;
+    margin-top: 15px;
+    margin-left: 10px;
     color: black;
     
+    
 }
-input{
+.input{
     width: 400px;
     background-color:hsl(202, 39%, 90%);
     border-radius: 15px;
     height: 30px;
+    margin-left:30px;
+    margin-top: -20px;
 }
+
 .img{
     color: black;
     margin-top:10px;
-    margin-left: 60px;
+    margin-left: -5px;
     color: black;
     padding-left:20px ;
+  
 }
 .comment{
     color: black;
     padding-left: 20px;
 }
-.Message{
-    color: black;
+.icons{
+    float: right;
+    display:flex;
+    margin-top: 60px;
+    padding-right: 25px;
+}
+.icons2{
+    float: right;
+    display:flex;
+    margin-top: 20px;
+    padding-right: 25px;
+
+}
+.icons3{
+    float: right;
+    display:flex;
+    margin-top: 60px;
+    padding-right: 25px;
+}
+.icons4{
+    float: right;
+    display:flex;
+    margin-top: 40px;
+    padding-right: 25px; 
+}
+.icons5{
+    float: right;
+    display:flex;
+    margin-top: 60px;
+    padding-right: 25px;
+}
+.icons6{
+    float: right;
+    display:flex;
+    margin-top: 40px;
+    padding-right: 25px;
+
+}
+.fa-user-circle
+{
+    color: burlywood;
+    margin-right: -10px;
 }
 
 .left_word{
     color: black;
      float: right;
-     margin-top: -90px;
+     margin-top: -110px;
      padding-right:10px;
      display: flex;
 }
 .nav-content{
     float: right;
     display: flex;
-    margin-top: 40px;
+    margin-top: 50px;
+
 }
 a{
     color: white;
-    padding: 7px;
+    
+    padding: 10px;
     background-color: steelblue;
     border-radius: 15px;
     text-decoration: none;
+     max-width:40px;
+     height: 20px;
 }
 
 nav{
     grid-area: nav;
     width: 145%;
-    text-decoration: none;
+    
 }
-.container2
+li
 {
-    text-decoration: none;
-}
-.list{
 
-    text-decoration: none;
+  list-style-type: none;
 }
+
 
 
 

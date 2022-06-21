@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="grid2.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Fistr project</title>
 </head>
@@ -14,51 +15,72 @@
             
               <form class="form" >
                 <i class="fa fa-search fa-lg"></i>
-                <input type="text">
+                <div class="input"></div>
               </form>
            </div>
         <div class="nav-content">
-             <li><a href="#">New</a></li> 
-             <li><a href="#">Upload</a></li>
+             <li><a href="#">New</a></li>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+             <li><a href="#">Upload</a></li>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
              <li><a href="#">Share</a></li>
         </div>
            <div class="img">
-            <i class="fa fa-tty"></i>
-             <h6>hi there</h6>
-             <h3>Pascal (@Pascal)</h3>
+            <i class="fa fa-user-circle" style="font-size:60px; margin-top:10px; margin-right: -80px;"></i>&nbsp &nbsp
+            <div style="margin-top: -40px;padding-left: 30px;">
+             <h6 style="margin-left: 40px;">hi there</h6>
+             <h3 style="margin-left: 40px;">Pascal (@Pascal)</h3>
+            </div>
           </div>
              <div class="left_word">
-                <i class="fa fa-bell-o"></i>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                <i class="fa fa-user-circle"></i> &nbsp &nbsp &nbsp 
+                <i class="fa fa-bell-o" style="font-size: 20px;"></i>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                <i class="fa fa-user-circle" style="font-size: 50px;margin-top: -10px;"></i> &nbsp &nbsp &nbsp 
                 <h3>Pascal</h3>
 
              </div>
            
     </header>
     <main>
-        <h3 class="comment">Your projects</h3>
         <div class="container">
+            <div class="grid-colum">
+            <h3>Your project</h3><br>
+           
             <div class="grid1">
                 <div class="card">
                     <div class="card-content">
                     <h3>Super cool project</h3>
                     <p>
+                       
                         send tempusut lacus ut scelerisque
                         Suspandisse sollicitudin nibh era,id
                         Facilisis fells sccumsan nec.
+                        <div class="icons">
+                            <i class="fa fa-star"></i>&nbsp &nbsp &nbsp &nbsp
+                            <i class="fa fa-eye"></i>&nbsp &nbsp &nbsp &nbsp
+                            <i class="fa fa-share-alt"></i>
+
+                        </div>
+                       
                     </p>
+                   
                 </div>
                 </div>
+           
                 
                 <div class="card">
                     <div class="card-content">
-                    <h3>Less control prject</h3>
+                    <h3>Less control project</h3>
                     <p>
                        Nullam condimentum ipsum ut lectus vehicula
                        consectetur.Quisque sed dolr tincidunt
                        consctetur sapien et, facilisisdolor.Dus sem 
                        purus, dignissim ut sapien in, varius
                        pellentesque lacus
+                        <div class="icons2">
+                            <i class="fa fa-star"></i>&nbsp &nbsp &nbsp &nbsp
+                            <i class="fa fa-eye"></i>&nbsp &nbsp &nbsp &nbsp
+                            <i class="fa fa-share-alt"></i>
+
+                        </div>
+
                     </p>
                 </div>
                 
@@ -70,6 +92,12 @@
                             In hac habitasse platea dictumst. vivamus
                             dictum rutrum arcu, a placerat velt sagittis
                             id.
+                            <div class="icons3">
+                                <i class="fa fa-star"></i>&nbsp &nbsp &nbsp &nbsp
+                                <i class="fa fa-eye"></i>&nbsp &nbsp &nbsp &nbsp
+                                <i class="fa fa-share-alt"></i>
+    
+                            </div>
                       </p>
                 </div>
                 </div>
@@ -82,6 +110,12 @@
                             vestbulum dignissim urna eget accumsan
                             aliquam. curabitur dignissim nisi in tortor
                             commodo, ac bibendum magna tincidunt.
+                            <div class="icons4">
+                                <i class="fa fa-star"></i>&nbsp &nbsp &nbsp &nbsp
+                                <i class="fa fa-eye"></i>&nbsp &nbsp &nbsp &nbsp
+                                <i class="fa fa-share-alt"></i>
+    
+                            </div>
                         </p>
                 </div>
                 </div>
@@ -94,6 +128,12 @@
                             justo cursus vitae metus vel, pharetra
                             hendrerit felis. Aliquam sed  malesuada
                             eros
+                            <div class="icons5">
+                                <i class="fa fa-star"></i>&nbsp &nbsp &nbsp &nbsp
+                                <i class="fa fa-eye"></i>&nbsp &nbsp &nbsp &nbsp
+                                <i class="fa fa-share-alt"></i>
+    
+                            </div>
                         </p>
                 </div>
                 </div>
@@ -105,15 +145,26 @@
                             elementum, nunuc ante faucibus sapien, ac 
                             scelerisque tortor purus sit amet ex.
                             pellentesque mollis nec sem vel aliquam.
+                            <div class="icons6">
+                                <i class="fa fa-star"></i>&nbsp &nbsp &nbsp &nbsp
+                                <i class="fa fa-eye"></i>&nbsp &nbsp &nbsp &nbsp
+                                <i class="fa fa-share-alt"></i>
+    
+                            </div>
                         </p>
                     
                 </div>
                 </div>
 
             </div> 
+        </div>
+            
            
             <div class="grid2" >
-
+             <div class="grid-colum">
+                <h3>Annoucement</h3>
+             </div>
+             
                 <div class="card2">
                 <div class="card-content2">
                     <h3>Site Maintenance</h3>
@@ -121,18 +172,17 @@
                         vestibulum condimentum tellus lacus 
                         in accumsan elit maximus ac. Donec 
                         hendrerit sodales, congue...
-                    </p>
-                    <br>
-                    <h1>___________________</h1><br>
-                    
+                    </p><br>
+                    <h1 style="color: grey;">___________________</h1><br>
                     <h3>Comminuty Share Day</h3>
                     <p>
                          Nam vel lectus tincidunt, rutrum nulla 
                          eu, ornare libero, aliquam dictum 
                          accumsan porttitor....
                     </p><br>
-                    <h1>___________________</h1><br>
-                    
+              
+                   <h1 style="color: grey;">____________________</h1><br>
+
                     <h3>Update Privacy Policy</h3>
                     <p>
                         phasllus efficitur nisi eget elit
@@ -140,57 +190,59 @@
                         auctor  Crap  fringila sagittis sem in matus.
                     </p>
             </div>
-            </div>
-               
+            </div><br>
+           
+                <div><h1 style="color:black; padding-left: 15px; font-size: 15px; margin-top: -40px; margin-bottom: 5px;" >Trending</h1>
                 <div class="card2">
                 <div class="card-content2">
-                    <p>
-                        <i class="fa fa-user-circle">
-                        @tegan
-                        World Peace Builder</i>
-                    </p><br><br>
-                    <p>
-                        <i class="fa fa-user-circle">
-                        @mogarn
-                        Surper Cool  Project</i>
-                    </p><br><br>
-                    <p>
-                        <i class="fa fa-user-circle"></i>
-                        @alex
-                        No Traffic Maker
-                    </p>
+
+                      <i class="fa fa-user-circle" style="font-size: 40px;"></i>&nbsp &nbsp &nbsp &nbsp
+                        <h4 style="padding-left:50px; margin-top: -30px;"> @pascal</h4>
+                        <i style="padding-left:50px; margin-top: -30px;"> World Peace Builder</i><br><br>
+
+                      <i class="fa fa-user-circle" style="font-size: 40px;"></i>&nbsp &nbsp &nbsp &nbsp
+                        <h4 style="padding-left:50px; margin-top: -30px;" > @pascal</h4>
+                       <i style="padding-left:50px; margin-top: -30px;"> Surper Cool  Project</i><br><br>
+
+                       <i class="fa fa-user-circle" style="font-size: 40px;"></i>&nbsp &nbsp &nbsp &nbsp
+                       <h4 style="padding-left:50px; margin-top: -30px;">@pasca</h4>
+                       <i style="padding-left:50px; margin-top: -30px;">Life Changing App</i><br><br>
+
+                    <i class="fa fa-user-circle" style="font-size: 40px;"></i>
+                       <h4 style="padding-left:50px; margin-top: -30px;">@pascal</h5> 
+                        <i style="padding-left:50px; margin-top: -30px;"> No Traffic Maker</i>
+                    
                 
             </div>
-            </div>
         </div>
-            
+    </div>
         </div>
     </main>
-    <nav>
+    <nav style="text-decoration: none;">
         <div class="container2">
             
-            <ul>
-                 <li class="list"><a href="#"><i class="fa fa-tachometer"></i>
+            
+                 <li ><a href="#"><i class="fa fa-tachometer" style="font-size: 50px; margin-right: 10px;"></i>
                      Dashboard</a></li><br><br><br>
-                 <li class="list"><a href="#"> <i class="fa fa-home"></i>Home</a></li>  <br>
-                 <li class="list"><a href="#"><i class="fa fa-user"></i>
+                 <li class="list"><a href="#"> <i class="fa fa-home" style="margin-right: 10px;"></i>Home</a></li>  <br>
+                 <li class="list"><a href="#"><i class="fa fa-user" style="margin-right: 10px;"></i>
                     Profile</a></li><br>
-                 <li class="list"><a href="#"><i class="fa fa-envelope"></i>
+                 <li class="list"><a href="#"><i class="fa fa-envelope" style="margin-right: 10px;"></i>
                      Message</a></li> <br>
-                 <li  class="list"><a href="#"><i class="fa fa-history"></i>
+                 <li  class="list"><a href="#"><i class="fa fa-history" style="margin-right: 10px;"></i>
                     History</a></li><br>
-                 <li  class="list"><a href="#"><i class="fa fa-tasks"></i>
+                 <li  class="list"><a href="#"><i class="fa fa-tasks" style="margin-right: 10px;"></i>
                     Tasks</a></li><br>
-                 <li  class="list"><a href="#"><i class="fa fa-group"></i>
+                 <li  class="list"><a href="#"><i class="fa fa-group" style="margin-right: 10px;"></i>
                     Comminuties</a></li><br><br><br>
-                 <li  class="list"><a href="#"> <i class="fa fa-cog "></i>
+                 <li  class="list"><a href="#"> <i class="fa fa-cog " style="margin-right: 10px;"></i>
                     Setting</a></li><br>
-                 <li  class="list"><a href="#"><i class="fa fa-question-circle"></i>
+                 <li  class="list"><a href="#"><i class="fa fa-question-circle" style="margin-right: 10px;"></i>
                     Suport</a></li><br>
-                 <li  class="list"><a href="#"><i class="fa fa-shield"></i>
+                 <li  class="list"><a href="#"><i class="fa fa-shield" style="margin-right: 10px;"></i>
 
                     privacy</a></li><br> 
-            </ul>
+     
      
         </div>
     </nav>
