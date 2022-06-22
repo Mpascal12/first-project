@@ -127,11 +127,14 @@ input{
     color: black;
     padding-left: 20px;
 }
+.Message{
+    color: black;
+}
 
 .left_word{
     color: black;
      float: right;
-     margin-top: -80px;
+     margin-top: -90px;
      padding-right:10px;
      display: flex;
 }
@@ -157,8 +160,10 @@ nav{
 {
     text-decoration: none;
 }
-ul{
+.list{
+
     text-decoration: none;
 }
+
 
 
