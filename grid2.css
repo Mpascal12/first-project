@@ -4,7 +4,7 @@
     padding: 0px;
 }
 body{
-    height: 90%;
+    height: 97%;
     font-family: 'Cambria', serif;
     font-size: 16px;
     display: grid;
@@ -20,7 +20,7 @@ nav{
     color: white;
     padding: 20px;
     border: skyblue 1px solid;
-    height: 189%;
+    height:200%;
     text-decoration: none;
 
     
@@ -40,7 +40,7 @@ main{
     height: 330%;
     background-color: hsl(202, 39%, 90%);
     margin-left: 60px;
-    margin-top: -130px;
+    margin-top: -100px;
 
 }
 .container
@@ -145,12 +145,14 @@ main{
     display:flex;
     margin-top: 60px;
     padding-right: 25px;
+    color: #d7d7d7;
 }
 .icons2{
     float: right;
     display:flex;
     margin-top: 20px;
     padding-right: 25px;
+    color: #d7d7d7;
 
 }
 .icons3{
@@ -158,29 +160,33 @@ main{
     display:flex;
     margin-top: 80px;
     padding-right: 25px;
+    color: #d7d7d7;
 }
 .icons4{
     float: right;
     display:flex;
     margin-top: 40px;
-    padding-right: 25px; 
+    padding-right: 25px;
+    color: #d7d7d7; 
 }
 .icons5{
     float: right;
     display:flex;
     margin-top: 60px;
     padding-right: 25px;
+    color: #d7d7d7;
 }
 .icons6{
     float: right;
     display:flex;
     margin-top: 40px;
     padding-right: 25px;
+    color: #d7d7d7;
 
 }
 .fa-user-circle
 {
-    color: burlywood;
+    color: gold;
     margin-right: -10px;
 }
 
@@ -188,26 +194,34 @@ main{
     color: black;
      float: right;
      margin-top: -100px;
-     padding-right:10px;
+     padding-right:50px;
      display: flex;
 }
 .nav-content{
     float: right;
     display: flex;
-    margin-top: 50px;
+    margin-top: 40px;
+    padding-right: 40px;
+    
     
 
+} 
+.paragrap{
+    color:gray;
+}
+li{
+    background-color:steelblue;
+    height: 30px;
+    width: 80px;
+    border-radius: 30px;
+    text-align: center;
+   padding-top: 5px;
+   
+    
 }
 a{
     color: white;
-    
-    padding: 10px;
-    background-color: steelblue;
-    border-radius: 15px;
-    text-decoration: none;
-     width: 40px;
-     padding-right:20px ;
-   
+    text-decoration: none; 
 }
 
 nav{
