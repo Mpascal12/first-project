@@ -5,7 +5,7 @@
 }
 body{
     height: 97%;
-    font-family: 'Cambria', serif;
+    font-family: sans-serif;
     font-size: 16px;
     display: grid;
     grid-template-areas: 
@@ -28,19 +28,20 @@ nav{
 }
 header{
     grid-area:  header;
-    height: 140px;
+    height: 150px;
     margin-right: 800px;
     width:80%;
     background-color: white;
     margin-left: 60px;
+    margin-bottom: 40px;
 }
 main{
     grid-area: content;
     width:80%; 
-    height: 330%;
+    height: 349%;
     background-color: hsl(202, 39%, 90%);
     margin-left: 60px;
-    margin-top: -100px;
+    margin-top: -90px;
 
 }
 .container
@@ -129,7 +130,7 @@ main{
 }
 
 .img{
-    color: black;
+    
     margin-top:10px;
     margin-left: -10px;
     color: black;
